@@ -1,0 +1,67 @@
+name: test_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+ 
+  cupertino_icons: ^1.0.2
+
+  # state management
+  hooks_riverpod: ^2.3.7
+
+  # screen size and widget size optimization
+  flutter_screenutil: ^5.8.4
+
+  # Navigation
+  auto_route: ^7.8.4
+
+  # render svg
+  flutter_svg: ^2.0.7
+
+  # render network image
+  cached_network_image: ^3.3.0
+
+  # sticky header
+  sticky_headers: ^0.3.0+2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  auto_route_generator: ^7.3.2
+  build_runner:
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/pngs/
+    - assets/images/svgs/
+
+  
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Bold.ttf
+        - asset: assets/fonts/NotoSans-SemiBold.ttf
+        - asset: assets/fonts/NotoSans-Medium.ttf
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        
